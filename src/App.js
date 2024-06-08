@@ -25,7 +25,8 @@ function App() {
 
   return (
     <BrowserRouter>
-    
+    <Routes>
+    <Route path="/" element={
     <div className="App">
       <header className="App-header">
         <p>악인전</p>
@@ -43,12 +44,10 @@ function App() {
           <div className="card" ></div>
         </div>
       </header>
-
-      <Routes>
-          <Route path="/login" element={<Login />} /> 
+      </div>
+    } />
+      <Route path="/login" element={<Login />} /> 
       </Routes>
-    </div>
-    
     </BrowserRouter>
   );
 }
