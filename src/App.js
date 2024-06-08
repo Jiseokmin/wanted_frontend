@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"; 
 import './App.css';
-//import Login from './Login';
+import Login from './Login';
 
 function App() {
   const [rotation, setRotation] = useState({ rotationX: 0, rotationY: 0 });
@@ -23,9 +24,12 @@ function App() {
   };
 
   return (
+    <BrowserRouter>
+    
     <div className="App">
       <header className="App-header">
         <p>악인전</p>
+        <Link to="/login">로그인</Link>  
         <div className="cardContainer" onMouseMove={handleMouseMove}
               onMouseOut={handleMouseOut}
               style={{
@@ -39,7 +43,13 @@ function App() {
           <div className="card" ></div>
         </div>
       </header>
+
+      <Routes>
+          <Route path="/login" element={<Login />} /> 
+      </Routes>
     </div>
+    
+    </BrowserRouter>
   );
 }
 
