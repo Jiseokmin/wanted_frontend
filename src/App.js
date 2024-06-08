@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import Login from './Login';
+import './App.css';
+//import Login from './Login';
 
 function App() {
   const [rotation, setRotation] = useState({ rotationX: 0, rotationY: 0 });
@@ -21,21 +22,6 @@ function App() {
     setRotation({rotationX: 0,rotationY: 0});
   };
 
-
-  // useEffect(()=>{
-  //     fetch("/test")      
-  //       .then(res => res.text())      
-  //       .then(m=>setMessage(m))  
-  //     }, [])
-
-  // return (
-  //   <div>
-  //         {message}
-  //   </div>
-  // );
-  return (
-    <div><Login /></div>
-  )
   return (
     <div className="App">
       <header className="App-header">
