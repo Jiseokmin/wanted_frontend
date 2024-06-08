@@ -18,6 +18,11 @@ function App() {
   return (
     <div><Login /></div>
   )
+  return (
+    <div className="App">
+      악인전
+    </div>
+  );
 }
 
 export default App;
