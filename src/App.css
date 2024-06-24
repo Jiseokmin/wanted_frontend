@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: white;
 }
 
@@ -18,7 +17,7 @@
   height: 300px;
   transition: transform 0.1s;
 
-  .card {
+  .gold_medal_card {
     width: 300px;
     height: 300px;
     background-image: url("/public/img/5king.jpg" );

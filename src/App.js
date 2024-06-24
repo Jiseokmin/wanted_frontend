@@ -41,7 +41,7 @@ function App() {
                 backgroundPosition: `${backgroundPosition.backgroundPosition}%`
               }}>
           </div>
-          <div className="card" ></div>
+          <div className="gold_medal_card" ></div>
         </div>
       </header>
       </div>
