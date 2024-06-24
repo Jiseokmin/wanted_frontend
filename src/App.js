@@ -28,9 +28,9 @@ function App() {
     <Routes>
     <Route path="/" element={
     <div className="App">
+      <Link to="/login">로그인</Link> 
       <header className="App-header">
-        <p>악인전</p>
-        <Link to="/login">로그인</Link>  
+        <p>악인전</p> 
         <div className="cardContainer" onMouseMove={handleMouseMove}
               onMouseOut={handleMouseOut}
               style={{
