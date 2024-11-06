@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # wanted_frontend
-wanted_frontend by react
+wanted_frontend by reactd
 =======
 # Getting Started with Create React App
 
